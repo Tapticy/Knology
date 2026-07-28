@@ -1,6 +1,5 @@
 
 
-
 Yes — you can **create your own domain name locally** without buying one, but it will only work **on your own network** (or for your own testing), not on the public Internet.
 
 ## Short version
@@ -46,8 +45,6 @@ If you want, I can also explain the difference between:
 
 
 
-==========================================================================================================================
-==========================================================================================================================
 
 question first can i create my own domain name with-out buying it and would that be the same as FQDN or DNS?
 
@@ -61,7 +58,7 @@ This is a **hostname + local domain suffix**.
 - `.local` = a common private/local suffix
 
 So:
-
+- Fully Qualified Domain = FQDN
 - `server01.local` is a **full name** (an FQDN-like name for local use)
 - It is **not** automatically a real public Internet domain
 - It is often used for **home/lab/private networks**
