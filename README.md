@@ -35,6 +35,9 @@ Memory Speed:  1600 Mhz
 
 ---------------------------------------
 
+# GP62M-7RDX 
+## Model Name: MS-16J9
+
 ## BIOS Information
 
 BIOS Version: E16J9IMS.31C
