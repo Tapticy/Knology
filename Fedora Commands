@@ -1,91 +1,91 @@
-For Fedora, these are the main commands you'll use:
+# For Fedora, these are the main commands you'll use:
 
 Update Fedora
 
-sudo dnf upgrade --refresh
+`sudo dnf upgrade --refresh`
 
 Install software
 
-sudo dnf install package-name
+`sudo dnf install package-name`
 
 Example:
 
-sudo dnf install vlc
+`sudo dnf install vlc`
 
 Remove software
 
-sudo dnf remove package-name
+`sudo dnf remove package-name`
 
 Search for software
 
-dnf search keyword
+`dnf search keyword`
 
 Example:
 
-dnf search firefox
+`dnf search firefox`
 
 See installed packages
 
-dnf list installed
+`dnf list installed`
 
 Check Fedora version
 
-cat /etc/fedora-release
+`cat /etc/fedora-release`
 
 or:
 
-hostnamectl
+`hostnamectl`
 
 System information
 
-inxi -F
+`inxi -F`
 
 (Install it first if needed:)
 
-sudo dnf install inxi
+`sudo dnf install inxi`
 
 Disk information
 
-lsblk
+`lsblk`
 
 Check disk space
 
-df -h
+`df -h`
 
 Check memory
 
-free -h
+`free -h`
 
 Check running processes
 
-top
+`top`
 
 or better:
 
-htop
+`htop`
 
 Install htop:
 
-sudo dnf install htop
+`sudo dnf install htop`
 
 Restart / shut down
 
 Restart:
 
-systemctl reboot
+`systemctl reboot`
 
 Shutdown:
 
-systemctl poweroff
+`systemctl poweroff`
 
 Enable a service
 
-sudo systemctl enable --now service-name
+`sudo systemctl enable --now service-name`
 
 Example (SSH server):
 
-sudo dnf install openssh-server
-sudo systemctl enable --now sshd
+`sudo dnf install openssh-server`
+`sudo systemctl enable --now sshd`
 
 Check hardware
 
