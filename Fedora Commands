@@ -1,0 +1,126 @@
+For Fedora, these are the main commands you'll use:
+
+Update Fedora
+
+sudo dnf upgrade --refresh
+
+Install software
+
+sudo dnf install package-name
+
+Example:
+
+sudo dnf install vlc
+
+Remove software
+
+sudo dnf remove package-name
+
+Search for software
+
+dnf search keyword
+
+Example:
+
+dnf search firefox
+
+See installed packages
+
+dnf list installed
+
+Check Fedora version
+
+cat /etc/fedora-release
+
+or:
+
+hostnamectl
+
+System information
+
+inxi -F
+
+(Install it first if needed:)
+
+sudo dnf install inxi
+
+Disk information
+
+lsblk
+
+Check disk space
+
+df -h
+
+Check memory
+
+free -h
+
+Check running processes
+
+top
+
+or better:
+
+htop
+
+Install htop:
+
+sudo dnf install htop
+
+Restart / shut down
+
+Restart:
+
+systemctl reboot
+
+Shutdown:
+
+systemctl poweroff
+
+Enable a service
+
+sudo systemctl enable --now service-name
+
+Example (SSH server):
+
+sudo dnf install openssh-server
+sudo systemctl enable --now sshd
+
+Check hardware
+
+lspci
+
+USB devices:
+
+lsusb
+
+Network information
+
+ip a
+
+Wi-Fi status:
+
+nmcli device
+
+Fedora uses:
+
+dnf = package manager (like Ubuntu's apt)
+
+systemctl = services
+
+journalctl = logs
+
+
+Coming from Ubuntu, the biggest change is:
+
+Ubuntu:
+
+sudo apt update
+sudo apt upgrade
+
+Fedora:
+
+sudo dnf upgrade --refresh
+
+The rest of the Linux commands (ls, cd, cp, mv, grep, ssh, etc.) are mostly the same.
