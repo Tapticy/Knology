@@ -4,7 +4,7 @@ Update Fedora
 
 `sudo dnf upgrade --refresh`
 
-Install software
+### Install software
 
 `sudo dnf install package-name`
 
@@ -87,9 +87,11 @@ Example (SSH server):
 `sudo dnf install openssh-server`
 `sudo systemctl enable --now sshd`
 
-Check hardware
 
-lspci
+## Check hardware
+
+`lspci`
+
 
 USB devices:
 
